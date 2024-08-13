@@ -10,11 +10,11 @@ This repository includes the simulation for the manuscript submitted in Statisti
 This simulation includes the data generation, MCMC algorithm (Gibbs+MH steps), figures, traceplots.
 
 ## Files
-ZIBBCP-Simulation-N500.R   =  R code simulation
+ZIBBCP-Simulation-N500.R   =  R code simulation with sample size N=500
 
 ZIBBCP-Simulation-N500.Rda =  MCMC samples for Alpha/Beta/Rho/Kappa1/Kappa2/Random-Effect Variance (generated from ZIBBCP-Simulation-N500.R script)
 
-ZIBBCP-Simulation.pdf =  R code simulation interpretation 
+ZIBBCP-Simulation.pdf =  R code simulation markdown  
 
 Figures folder = All figures from the manuscript and supplement 
 
