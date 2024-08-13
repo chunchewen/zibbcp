@@ -12,7 +12,7 @@ This simulation includes the data generation, MCMC algorithm (Gibbs+MH steps), f
 ## Files
 zibbcp.R   =  R code simulation
 
-zibbcp.Rda =  MCMC samples for Alpha/Beta/Rho/Kappa1/Kappa2/Random-Effect Variance
+zibbcp.Rda =  MCMC samples for Alpha/Beta/Rho/Kappa1/Kappa2/Random-Effect Variance (generated from zibbcp.R script)
 
 zibbcp-simulation.pdf =  R code simulation interpretation 
 
