@@ -9,14 +9,14 @@ This repository includes the simulation for the manuscript submitted in Statisti
 
 This simulation includes the data generation, MCMC algorithm (Gibbs+MH steps), figures, traceplots.
 
-# Files
+## Files
 zibbcp.R   =  R code simulation
 
 zibbcp.Rda =  MCMC samples for Alpha/Beta/Rho/Kappa1/Kappa2/Random-Effect Variance
 
 zibbcp.Rmd =  R code simulation interpretation 
 
-# Parameters
+## Parameters
 Alpha  = Fixed effects in binary component 
 
 Beta   = Fixed effects in BB component
