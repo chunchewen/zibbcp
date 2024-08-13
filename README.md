@@ -14,7 +14,9 @@ zibbcp.R   =  R code simulation
 
 zibbcp.Rda =  MCMC samples for Alpha/Beta/Rho/Kappa1/Kappa2/Random-Effect Variance
 
-zibbcp.Rmd =  R code simulation interpretation 
+zibbcp-simulation.pdf =  R code simulation interpretation 
+
+
 
 ## Parameters
 Alpha  = Fixed effects in binary component 
