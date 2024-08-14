@@ -5,7 +5,7 @@ Journal: Statistics in Medicine
 
 Author: Chun-Che Wen, Nathaniel Baker, Rajib Paul, Elizabeth Hill, Kelly Hunt, Hong Li, Kevin Gray, and Brian Neelon
 
-This repository includes the simulation for the manuscript submitted in Statistics in Medicine. The script is the simulation for the zero-inflated beta-binomial (ZIBB) mixed model with the group-specific changepoints. The ZIBB mixed model can accommodate bounded and discrete data with overdispersion, repeated measures, and zero inflation. The group-specific changepoint can capture the dynamic change in treatment efficacy. 
+This repository includes the simulation for the manuscript submitted in Statistics in Medicine. The R script (ZIBBCP-Simulation-N500.R) is the simulation for the zero-inflated beta-binomial (ZIBB) mixed model with the group-specific changepoints. The ZIBB mixed model can accommodate bounded and discrete data with overdispersion, repeated measures, and zero inflation. The group-specific changepoint can capture the dynamic change in treatment efficacy. Two group-specific changepoints are included in both the binary and BB components of the zero-inflated model.  
 
 This simulation includes the data generation, MCMC algorithm (Gibbs+MH steps), figures, traceplots.
 
@@ -29,4 +29,4 @@ Kappa1 = Placebo changepoint
 
 Kappa2 = Treatment changepoint
 
-Sigmab = Random effect variance (random intercept/slope/slope after cp)
+Sigmab = 6 x 6 matrix of Random effect variance (random intercept/slope/slope after cp)
